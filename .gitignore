@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Data and Models (DO NOT UPLOAD LARGE DATA TO GITHUB)
+data/raw/*
+data/processed/*
+data/temp_upload*
+models/*.pth
+models/*.h5
+models/*.onnx
+
+# Specific Data formats
+*.dcm
+*.nii
+*.nii.gz
+*.mhd
+*.raw
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Documentation (EXCLUDE PRIVATE MD FILES)
+PROJECT_PLAN.md
